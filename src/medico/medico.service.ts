@@ -83,7 +83,7 @@ export class MedicoService {
   }
 
 
-  async findbyData(dado)  { //ajustar não deletar
+  async findbyData(dado)  { 
 
       const existeMedico = await this.medicoRepository.findOneOrFail(dado).then(resultado => {
         return resultado

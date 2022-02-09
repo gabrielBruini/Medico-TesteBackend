@@ -14,7 +14,7 @@ import { Local } from './local/entities/local.entity';
     username: "root",
     password: "admin",
     database: "apimedico",
-    entities: ["dist/**/**.entity{.ts,.js}"],
+    entities: [Medico, Local],
     synchronize: true,
     migrations: ["migration/*.js"],
     cli: {

@@ -4,7 +4,7 @@ import { MedicoController } from './medico.controller';
 import { HttpModule } from '@nestjs/axios';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Medico } from './entities/medico.entity';
-import { Local } from 'src/local/entities/local.entity';
+import { Local } from '../local/entities/local.entity';
 
 
 @Module({
